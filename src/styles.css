@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+*{
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif; 
+    padding: 0 ; 
+    margin: 0 ;
+}
+
+:root{
+    --red: #ED461D; 
+    --white: #fff; 
+    --grey: #8D889D;
+    --black: #0F0537; 
+}
+
+/*header*/ 
+
+.navbar{
+    display: flex; 
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 900px; 
+    padding: 20px;
+    border-bottom: 2px solid #f2f2f2; 
+}
+
+.logo{
+    color: black; 
+    margin-left: 10px; 
+    /* border: 1px solid black;  */
+}
+
+.logo a, .options a{
+    text-decoration: none;
+}
+
+.logo h2{
+    font-size: 2.25rem; 
+    color: black; 
+}
+
+.logo span, #contact li{
+    color: var(--red); 
+}
+
+.options{
+    color: var(--grey); 
+    margin-left: auto; 
+    /* border: 1px solid black;  */
+}
+
+.options ul{
+    display: flex; 
+    /* border: 1px solid black;  */
+}
+
+.options ul li{
+    color: #8D889D; 
+    margin-left: 120px;
+    list-style-type: none; 
+}
+.options ul li:hover{
+    border-bottom: 1px solid var(--red); 
+}
+
+/* main body */
+
+.main-body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+.main-body .slogan{ 
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 60px;
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    font-size: 2.00rem;
+ 
+}
+
+.main-body .descrip{
+    color: var(--grey); 
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    margin-top: 245px; 
+}
+
+.main-body .order{
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    margin-top: 335px;
+}
+
+.order button{
+    color: var(--white);
+    font-size: 1.25rem; 
+    width: 150px;
+    height: 45px;
+    border: none; 
+    outline: none; 
+    top: 629px;
+    background: var(--red);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 60px;
+}
+
+.main-body .ramen-picture{
+    position: absolute; 
+    margin-top: -30px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 400px;
+}
+
+.main-body .ramen-picture .img{
+    width: 50%;
+    height: auto;
+}
+
+/* .main-body div{
+    border: 1px solid black; 
+} */
+
+/* contact */
+
+/* div{
+    display:flex;
+    justify-content: center;
+} */
+
+.contact-title{
+    text-align: center; 
+    padding: 10px; 
+    color: var(--red)
+}
+
+.tel{
+    text-align: center; 
+    padding: 10px; 
+}
+
+.hackney-picture img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-title{
+    text-align: center; 
+    padding: 10px; 
+    color: var(--red)
+}
+
+main{
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+main .food .food-para .food-price{
+    text-align: center;    
+}
+
+.food{
+    font-size: 30px;
+}
+
+.food-para{
+    font-size: 20px;
+}
+
+.food-price{
+    font-size: 20px;
+}
+
+.food-tile{
+   margin-top: 20px; 
+}
